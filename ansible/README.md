@@ -40,3 +40,11 @@ Define host **btj-academy** with ansible host IP value of VM host
 ```
 Define one play named **Run docker container** with one task to run docker container.
 Use **ansible-yuma** as container name and **priotask** as image with tag value **1.0.0 (priotask:1.0.0)**, set interactive and tty value with true, and use port **8081:8081** 
+
+### Execute Playbook
+
+    ansible-playbook -i inventory.yaml playbook.yaml
+
+### Verify container running
+
+    docker ps
