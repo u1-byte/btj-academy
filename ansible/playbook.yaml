@@ -1,0 +1,11 @@
+- name: Run docker container
+  hosts: btj-academy
+  become: true
+  tasks:
+    - docker_container:
+        name: ansible-yuma
+        image: "priotask:{{ tag }}"
+        interactive: true
+        tty: true
+        ports:
+          - "8081:8081"

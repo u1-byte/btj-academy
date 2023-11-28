@@ -1,0 +1,6 @@
+all:
+  vars:
+    tag: 1.0.0
+  hosts:
+    btj-academy:
+      ansible-host: 10.184.0.100
