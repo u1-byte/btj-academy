@@ -2,16 +2,16 @@
 # Yuma Anugrah Virya Gunawan
 ## Task List
 
- 1. **Simple Task - Docker**
- 2. **Simple Task - Ansible**
+ 1. [**Simple Task - Docker**](https://github.com/u1-byte/btj-academy/tree/main#simple-task---docker)
+ 2. [**Simple Task - Ansible**](https://github.com/u1-byte/btj-academy/tree/main/ansible#simple-task---ansible)
  3. **Simple Task - App Deployment**
 
 ## Simple Task - Docker
-[1. Buatlah image dari aplikasi sederhana yang sudah dibuat.](https://github.com/u1-byte/btj-academy/tree/main#answer-1)
-[2. Jalankan image tersebut sebagai container dan berjalan pada port 8081](https://github.com/u1-byte/btj-academy/tree/main#answer-2)
-[3. Berapakah IP docker container **whoami**?](https://github.com/u1-byte/btj-academy/tree/main#answer-3)
-[4. Apa isi dari file yang tersembunyi dari docker container **whoami**? Clue: Volume Mounting](https://github.com/u1-byte/btj-academy/tree/main#answer-4)
-[5. Image apa yang digunakan pada docker container **whoami**?](https://github.com/u1-byte/btj-academy/tree/main#answer-5)
+1. [Buatlah image dari aplikasi sederhana yang sudah dibuat.](https://github.com/u1-byte/btj-academy/tree/main#answer-1)
+2. [Jalankan image tersebut sebagai container dan berjalan pada port 8081](https://github.com/u1-byte/btj-academy/tree/main#answer-2)
+3. [Berapakah IP docker container **whoami**?](https://github.com/u1-byte/btj-academy/tree/main#answer-3)
+4. [Apa isi dari file yang tersembunyi dari docker container **whoami**? Clue: Volume Mounting](https://github.com/u1-byte/btj-academy/tree/main#answer-4)
+5. [Image apa yang digunakan pada docker container **whoami**?](https://github.com/u1-byte/btj-academy/tree/main#answer-5)
 
 ## Answer 1
 ### SSH into VM 
