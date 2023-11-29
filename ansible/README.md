@@ -20,8 +20,8 @@ all:
     btj-academy:
       ansible-host: 10.184.0.100
 ```
-Define variable **tag** with value of image version
-Define host **btj-academy** with ansible host IP value of VM host
+- Define variable **tag** with value of image version
+- Define host **btj-academy** with ansible host IP value of VM host
 
 ## Answer 2
 ### Create yaml file for playbook configuration
@@ -38,8 +38,8 @@ Define host **btj-academy** with ansible host IP value of VM host
         ports:
           - "8081:8081"
 ```
-Define one play named **Run docker container** with one task to run docker container.
-Use **ansible-yuma** as container name and **priotask** as image with tag value **1.0.0 (priotask:1.0.0)**, set interactive and tty value with true, and use port **8081:8081** 
+- Define one play named **Run docker container** with one task to run docker container.
+- Use **ansible-yuma** as container name and **priotask** as image with tag value **1.0.0 (priotask:1.0.0)**, set interactive and tty value with true, and use port **8081:8081** 
 
 ### Execute Playbook
 
