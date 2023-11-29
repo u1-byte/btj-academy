@@ -1,0 +1,23 @@
+- name: Run multiple task
+  hosts: btj-academy
+  become: true
+  tasks:
+    - name: Copy file to another directory
+      ansible.builtin.copy:
+        src: "{{ source }}"
+        dest: "{{ destination }}"
+    - name: Build docker image
+      community.docker.docker_image:
+        name: "{{ image }}"
+        tag: "{{ tag }}"
+        build:
+          path: "{{ destination }}"
+        source: "build"        
+    - name: Run docker container
+      docker_container:
+        name: "{{ container_name }}"
+        image: "{{ image }}:{{ tag }}"
+        interactive: true
+        tty: true
+        ports:
+          - "{{ port }}"

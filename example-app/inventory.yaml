@@ -1,0 +1,11 @@
+all:
+  vars:
+    image: i-flask-yuma
+    tag: 1.0.0
+    source: ../example-app/
+    destination: btj-academy/destination-dir/
+    container_name: c-flask-yuma
+    port: 5005:5005
+  hosts:
+    btj-academy:
+      ansible-host: 10.184.0.100
