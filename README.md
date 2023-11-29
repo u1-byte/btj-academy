@@ -4,7 +4,7 @@
 
  1. [**Simple Task - Docker**](https://github.com/u1-byte/btj-academy/tree/main#simple-task---docker)
  2. [**Simple Task - Ansible**](https://github.com/u1-byte/btj-academy/tree/main/ansible#simple-task---ansible)
- 3. **Simple Task - App Deployment**
+ 3. [**Simple Task - App Deployment**](https://github.com/u1-byte/btj-academy/tree/main/example-app#simple-task---app-deployment)
 
 ## Simple Task - Docker
 1. [Buatlah image dari aplikasi sederhana yang sudah dibuat.](https://github.com/u1-byte/btj-academy/tree/main#answer-1)
